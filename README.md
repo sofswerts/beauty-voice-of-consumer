@@ -47,13 +47,6 @@ notebooks/
 dashboard/README_dashboard.md    páginas e queries do dashboard
 ```
 
-## Como rodar
-1. Crie uma conta no [Databricks Free Edition](https://www.databricks.com/learn/free-edition).
-2. Em *Workspace > Create > Git folder*, conecte este repositório.
-3. Rode `00_setup` e faça upload dos CSVs do Kaggle no volume `workspace.beauty.raw`.
-4. Rode os notebooks 01 a 05 em ordem. Opcional: crie um *Job* encadeando os quatro.
-5. Monte o dashboard seguindo `dashboard/README_dashboard.md`.
-
 ## Resultados
 Base: 1.094.411 reviews e 8.494 produtos após ingestão; modelo treinado em amostra de 150 mil reviews (teste com 30 mil).
 
